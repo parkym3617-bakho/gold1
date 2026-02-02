@@ -58,6 +58,12 @@ const recipes = [
         name: "부대찌개",
         icon: "🌭",
         description: "다양한 햄과 소시지가 듬뿍, 얼큰하고 푸짐한 부대찌개!"
+    },
+    {
+        id: "deunggalbi-kimchi-jjim",
+        name: "등갈비 김치찜",
+        icon: "🍖",
+        description: "묵은지와 등갈비의 환상적인 만남, 밥도둑 등갈비 김치찜!"
     }
 ];
 
