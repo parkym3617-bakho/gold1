@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf6e3;
+    color: #654321;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px dashed #d2691e;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #d2691e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serving-size {
+    font-size: 0.5em;
+    color: #a0522d;
+    font-weight: bold;
+    margin-left: 15px;
+    background-color: #fdf6e3;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.recipe-section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #d2691e;
+    margin-bottom: 25px;
+    border-left: 5px solid #d2691e;
+    padding-left: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.recipe-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fdf6e3;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.step-icon {
+    font-size: 2.5em;
+    background-color: #d2691e;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.step-description p {
+    margin: 0 0 5px 0;
+    font-size: 1.1em;
+}
+
+.step-time {
+    font-size: 0.9em;
+    color: #a0522d;
+    font-weight: bold;
+}
+
+.back-button {
+    display: inline-block;
+    text-align: center;
+    background-color: #d2691e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #a0522d;
+}
