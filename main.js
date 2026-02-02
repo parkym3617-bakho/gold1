@@ -70,6 +70,12 @@ const recipes = [
         name: "콩나물 볶음",
         icon: "🍳",
         description: "아삭아삭한 식감이 일품! 간단하게 만드는 콩나물 볶음!"
+    },
+    {
+        id: "soondubu-jjigae",
+        name: "순두부찌개",
+        icon: "🌶️",
+        description: "얼큰하고 부드러운 맛, 밥도둑 순두부찌개!"
     }
 ];
 
